@@ -1,46 +1,31 @@
-// COLOR
-
-// Primary Colors
+// COLORS
 $color-primary: #55c57a;
 $color-primary-light: #7ed56f;
 $color-primary-dark: #28b485;
 
-// Secondarys Colors
 $color-secondary-light: #ffb900;
 $color-secondary-dark: #ff7730;
 
-// Tertiary Colors
 $color-tertiary-light: #2998ff;
 $color-tertiary-dark: #5643fa;
 
-// Grey Lights Colors 
 $color-grey-light-1: #f7f7f7;
 $color-grey-light-2: #eee;
 
-// Grey Darks Colors
 $color-grey-dark: #777;
 $color-grey-dark-2: #999;
 $color-grey-dark-3: #333;
 
-// Black and Whites
 $color-white: #fff;
 $color-black: #000;
 
-// Font-size
-$default-font-size: 1.8rem;
+
+// FONT
+$default-font-size: 1.6rem;
 
 
-// Btn Secondary Font-size
-$btn-secondary-font-size: 1.9rem;
-
-/////////////////////////////////////////
 // GRID
-
-// Grid width
 $grid-width: 114rem;
-
-// Gutter Vertical
 $gutter-vertical: 8rem;
-
-// Gutter- Horizontal
+$gutter-vertical-small: 6rem;
 $gutter-horizontal: 6rem;

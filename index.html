@@ -34,7 +34,7 @@
           </li>
           <li class="navigation__item">
             <a href="#benefit" class="navigation__link"
-              ><span>02</span>Your benfits</a
+              ><span>02</span>Your benefits</a
             >
           </li>
           <li class="navigation__item">
@@ -174,7 +174,7 @@
               </h3>
               <p class="feature-box__text">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Aperiam, ipsum sapient
+                Aperiam, ipsum sapiente aspernatur.
               </p>
             </div>
           </div>
@@ -425,7 +425,20 @@
 
     <footer class="footer">
       <div class="footer__logo-box">
-        <img src="img/logo-green-2x.png" alt="Full logo" class="footer__logo" />
+        <picture class="footer__logo">
+          <source
+            srcset="
+              img/logo-green-small-1x.png 1x,
+              img/logo-green-small-2x.png 2x
+            "
+            media="(max-width: 37.5em)"
+          />
+          <img
+            srcset="img/logo-green-1x.png 1x, img/logo-green-2x.png 2x"
+            alt="Full logo"
+            src="img/logo-green-2x.png"
+          />
+        </picture>
       </div>
       <div class="row">
         <div class="col-1-of-2">
